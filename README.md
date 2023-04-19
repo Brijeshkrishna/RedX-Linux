@@ -11,8 +11,7 @@
                         ████       ███▄
 
 ```
-### RedX Linux is a Arch-based Linux distribution that is designed for both programmers and normal users alike. With a focus on performance, stability, and security, RedX Linux provides users with a robust platform that is ideal for a wide range of use cases.
-
+RedX Linux is a Arch-based Linux distribution that is designed for both programmers and normal users alike. With a focus on performance, stability, and security, RedX Linux provides users with a robust platform that is ideal for a wide range of use cases.
 
 # How to build ISO
 
@@ -62,3 +61,6 @@ Reboot the computer , will booting press f12 or f11 (or other based on the your 
 still now , there is no Disktop managers 
 
 Try it out 🥰 
+=======
+### Try it out 🥰 
+>>>>>>> 4e12accbf04e1ac68e822d8409bb605b1ecc3bf1
