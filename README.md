@@ -61,6 +61,3 @@ Reboot the computer , will booting press f12 or f11 (or other based on the your 
 still now , there is no Disktop managers 
 
 Try it out 🥰 
-=======
-### Try it out 🥰 
->>>>>>> 4e12accbf04e1ac68e822d8409bb605b1ecc3bf1
