@@ -9,8 +9,8 @@ on: [push]
 jobs:
 
   build:
-
-    runs-on: arch-latest
+	
+    runs-on: ubuntu-latest
 
     steps:
 
