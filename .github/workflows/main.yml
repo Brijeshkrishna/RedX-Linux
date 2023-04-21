@@ -1,0 +1,46 @@
+name: Build Arch Linux ISO and Upload to Releases
+
+on:
+
+  push:
+
+    branches: [main]
+
+jobs:
+
+  build:
+
+    runs-on: arch-latest
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+
+      run: |
+
+        sudo pacman -Syu --noconfirm archiso
+
+    - name: Build ISO
+
+      run: |
+
+        sudo mkarchiso -v -w work -o out ./archiso/
+
+    - name: Upload to Releases
+
+      uses: actions/upload-release-asset@v1
+
+      with:
+
+        upload_url: ${{ github.event.release.upload_url }}
+
+        asset_path: ./out/*.iso
+
+        asset_name: archlinux-$(date +'%Y%m%d').iso
+
+        asset_content_type: application/octet-stream
+
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
