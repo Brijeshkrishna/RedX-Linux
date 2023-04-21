@@ -1,10 +1,10 @@
 name: Build Arch Linux ISO and Upload to Releases
 
-on:
+on: [push]
 
-  push:
 
-    branches: [main]
+
+
 
 jobs:
 
