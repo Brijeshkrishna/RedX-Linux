@@ -2,14 +2,8 @@ name: Build Arch Linux ISO and Upload to Releases
 
 on: [push]
 
-
-
-
-
 jobs:
-
   build:
-	
     runs-on: ubuntu-latest
 
     steps:
